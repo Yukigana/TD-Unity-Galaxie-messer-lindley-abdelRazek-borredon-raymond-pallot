@@ -1,1 +1,1 @@
-kiki
+Projet de système solaire dans le cadre d'une initiation à git.

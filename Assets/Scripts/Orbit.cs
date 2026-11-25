@@ -1,11 +1,11 @@
 using UnityEngine;
 public class Orbits : MonoBehaviour
 {
-    //Centre de l’orbite (ex: le Soleil)
+    //Centre de lâ€™orbite (ex: le Soleil)
     public Transform pivot;
-    //Vitesse angulaire en degrés/seconde
+    //Vitesse angulaire en degrÃ©s/seconde
     public float angularSpeed = 20f;
-    //Rotation propre de la planète en degrés/seconde
+    //Rotation propre de la planÃ¨te en degrÃ©s/seconde
     public float selfRotationSpeed = 30f;
     void Update()
     {
@@ -14,7 +14,7 @@ public class Orbits : MonoBehaviour
             // orbite autour du pivot (axe Y)
             transform.RotateAround(pivot.position, Vector3.up, angularSpeed * Time.deltaTime);
         }
-        // rotation sur soi-même (axe Y)
+        // rotation sur soi-mÃªme (axe Y)
         transform.Rotate(Vector3.up, selfRotationSpeed * Time.deltaTime, Space.Self);
     }
 }

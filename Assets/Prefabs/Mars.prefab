@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8397304696747074847}
   - component: {fileID: 5493980585063930570}
   - component: {fileID: 7662232854302561447}
-  - component: {fileID: 8349428170737894036}
+  - component: {fileID: 1604588532481666598}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -113,7 +113,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8349428170737894036
+--- !u!114 &1604588532481666598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2462820175741288965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fdf8dfb812db4879b98e7cf450d63d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 42e53b0336a3dd842981e77d29fd6aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orbits
   pivot: {fileID: 0}
